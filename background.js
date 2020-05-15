@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
       conditions: [
         new chrome.declarativeContent.PageStateMatcher({
           pageUrl: {
-            hostEquals: 'www.netflix.com',
+            hostEquals: 'www.hulu.com',
             pathPrefix: '/watch/',
             schemes: ['http', 'https']
           }
