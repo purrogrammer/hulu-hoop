@@ -8,7 +8,7 @@ body {
   padding: 0;
   width: 332px;
   font-family: sans-serif;
-  font-size: 0.9em;
+  font-size: 1rem;
   color: #333;
 }
 
@@ -73,14 +73,14 @@ button {
   border-style: none;
   padding: 8px 16px;
   cursor: pointer;
-  background-color: #158cba;
+  background-color: rgb(148, 9, 74);
   border-bottom: 3px solid #11698c;
   color: #e8f4ff;
 }
 
 button:focus {
-  background-color: #158cba;
-  border-bottom: 3px solid #11698c;
+  background-color: #ba152b;
+  border-bottom: 3px solid #b34b72;
   color: #e8f4ff;
   outline-style: none;
 }

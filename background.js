@@ -1,6 +1,6 @@
 'use strict';
 
-// only load for URLs that match www.netflix.com/watch/*
+// only load for URLs that match www.hulu.com/watch/*
 chrome.runtime.onInstalled.addListener(function(details) {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     chrome.declarativeContent.onPageChanged.addRules([{
