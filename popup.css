@@ -10,6 +10,7 @@ body {
   font-family: sans-serif;
   font-size: 1rem;
   color: #333;
+  background: linear-gradient(pink, blue);
 }
 
 label {
@@ -69,25 +70,25 @@ button {
   -moz-border-radius:    2px;
   -ms-border-radius:     2px;
   -o-border-radius:      2px;
-  border-radius:         2px;
+  border-radius:         25px;
   border-style: none;
   padding: 8px 16px;
   cursor: pointer;
-  background-color: rgb(148, 9, 74);
+  background-color: rgb(240, 17, 121);
   border-bottom: 3px solid #11698c;
   color: #e8f4ff;
 }
 
 button:focus {
-  background-color: #ba152b;
-  border-bottom: 3px solid #b34b72;
+  background-color: #027c0c;
+  border-bottom: 3px solid #07c958;
   color: #e8f4ff;
   outline-style: none;
 }
 
 button:hover {
-  background-color: #23a4d6;
-  border-bottom: 3px solid #1981ab;
+  background-color: #027c0c;
+  border-bottom: 3px solid #07c958;
   color: #e8f4ff;
 }
 
